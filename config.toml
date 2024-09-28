@@ -4,14 +4,10 @@ title = "My New Hugo Site"
 theme = "LoveIt"
 [menus]
   [[menus.main]]
-    name = 'Home'
-    url = '/'
-    weight = 10
-  [[menus.main]]
     name = '文章'
     url = '/article'
-    weight = 30
+    weight = 20
   [[menus.main]]
     name = 'Why'
     url = '/why'
-    weight = 20
+    weight = 30
