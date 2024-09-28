@@ -8,6 +8,6 @@ theme = "LoveIt"
     url = '/article'
     weight = 20
   [[menus.main]]
-    name = 'Why'
-    url = '/why'
+    name = 'Amazing'
+    url = '/amazing'
     weight = 30
