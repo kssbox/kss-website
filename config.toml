@@ -5,13 +5,13 @@ theme = "LoveIt"
 [menus]
   [[menus.main]]
     name = 'Home'
-    pageRef = '/'
+    url = '/'
     weight = 10
   [[menus.main]]
     name = 'Why'
-    pageRef = '/why'
+    url = '/why'
     weight = 20
   [[menus.main]]
     name = 'Test'
-    pageRef = '/test'
+    url = '/test'
     weight = 30
