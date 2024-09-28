@@ -1,4 +1,17 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
-theme = "ananke"
+theme = "LoveIt"
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Why'
+    pageRef = '/why'
+    weight = 20
+  [[menus.main]]
+    name = 'Test'
+    pageRef = '/test'
+    weight = 30
