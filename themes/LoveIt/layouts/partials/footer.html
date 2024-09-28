@@ -7,7 +7,7 @@
                     {{- safeHTML . -}}
                 </div>
             {{- end -}}
-
+            Current Hugo Version: {{ hugo.Version }}
             {{- /* Hugo and LoveIt */ -}}
             {{- if ne .Site.Params.footer.hugo false -}}
                 <div class="footer-line">
@@ -16,6 +16,7 @@
                     {{- dict "Hugo" $hugo "Theme" $theme | T "poweredBySome" | safeHTML }}
                 </div>
             {{- end -}}
+            
 
             <div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork">
                 {{- /* Copyright year */ -}}
