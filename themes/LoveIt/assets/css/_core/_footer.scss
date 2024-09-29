@@ -1,6 +1,9 @@
+$footer-text-color: #7d7d7d4d;
+
 footer {
   height: 2rem;
   width: 100%;
+  color: $footer-text-color;
   text-align: center;
   line-height: 1.25rem;
   padding: 1rem 0;
@@ -10,6 +13,12 @@ footer {
 
     .footer-line {
       width: 100%;
+
+      .author, .license {
+        a {
+          color: $footer-text-color;
+        }
+      }
 
       .icp-br {
         display: none;
