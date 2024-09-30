@@ -871,14 +871,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     hasCJKLanguage = true
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     [languages.zh-cn.menu]
-      [[languages.zh-cn.menu.main]]
-        weight = 2
-        identifier = "posts"
-        pre = ""
-        post = ""
-        name = "文章"
-        url = "/posts/"
-        title = ""
+      # [[languages.zh-cn.menu.main]]
+      #   weight = 2
+      #   identifier = "posts"
+      #   pre = ""
+      #   post = ""
+      #   name = "文章"
+      #   url = "/posts/"
+      #   title = ""
       # [[languages.zh-cn.menu.main]]
       #   weight = 2
       #   identifier = "tags"
