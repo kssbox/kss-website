@@ -1,5 +1,5 @@
 ---
-title: Web3.0 漫游指南
+title: 《Web3.0 漫游指南》
 date: 2024-09-12
 categories: [book]
 ---
