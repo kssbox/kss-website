@@ -887,23 +887,22 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       #   name = "标签"
       #   url = "/tags/"
       #   title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 3
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "分类"
-        url = "/categories/"
-        title = ""
-
-      [[languages.zh-cn.menu.main]]
-        weight = 5
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "关于"
-        url = "/about/"
-        title = ""
+      # [[languages.zh-cn.menu.main]]
+      #   weight = 3
+      #   identifier = "categories"
+      #   pre = ""
+      #   post = ""
+      #   name = "分类"
+      #   url = "/categories/"
+      #   title = ""
+      # [[languages.zh-cn.menu.main]]
+      #   weight = 5
+      #   identifier = "about"
+      #   pre = ""
+      #   post = ""
+      #   name = "关于"
+      #   url = "/about/"
+      #   title = ""
       # [[languages.zh-cn.menu.main]]
       #   weight = 6
       #   identifier = "github"
@@ -914,7 +913,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       #   title = "GitHub"
     [languages.zh-cn.params]
       [languages.zh-cn.params.search]
-        enable = true
+        enable = false
         type = "algolia"
         contentLength = 4000
         placeholder = ""
